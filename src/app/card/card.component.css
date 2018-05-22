@@ -1,0 +1,33 @@
+.card {
+    width: 18rem;
+    text-align: center;
+}
+
+.card-header img {
+    border-radius: 170rem;
+    width: 10rem;
+}
+
+.card-header {
+    background-image: url('https://placeimg.com/640/480/any');
+}
+
+.card-body .card-username {
+    margin: 0;
+}
+.card-body .card-mail {
+    font-size: 12px;
+}
+
+.card-lower-body {
+ display: flex;
+}
+
+.card-nationality {
+    text-align: left
+}
+
+.card-gender {
+    margin-left: 3rem;
+    text-align: left
+}

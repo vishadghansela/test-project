@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-header">
+      <img class="card-img-top" [src]="cardDetails.picture?.large" alt="Card image cap">
+  </div>
+  <div class="card-body">
+    <div>
+        <h5 class="card-username">{{cardDetails.name?.title}} {{cardDetails.name?.first}} {{cardDetails.name?.last}}</h5>
+        <p class="card-mail">{{cardDetails.email}}</p>
+    </div>
+    <hr>
+    <div class="card-lower-body">
+        <div class="card-nationality">
+            <h6>NATIONALITY</h6>
+            <P>{{cardDetails.nat}}</P>
+          </div>
+          <div class="card-gender">
+              <h6>GENDER</h6>
+              <p>{{cardDetails.gender}}</p>
+          </div>
+    </div>
+  </div>
+  </div>

@@ -1,0 +1,7 @@
+<div>Header</div>
+<div class="cards">
+  <div *ngFor="let card of cardDetailsArray">
+      <app-card [cardDetails]="card"></app-card>
+  </div>
+</div>
+<div>Footer</div>
